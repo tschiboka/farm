@@ -1,6 +1,7 @@
 :root {
     --sky-blue: #8ba9c9;
     --sky-purple: #9a8dba;
+    --sun: #fffddb;
 }
 
 #box {
@@ -13,9 +14,18 @@
     background: linear-gradient(135deg, var(--sky-blue) 0%,var(--sky-purple) 84%,var(--sky-purple) 100%);
     border: 1px dotted whitesmoke;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a90c7', endColorstr='#8f5dda', GradientType=1 );    
-    height: 90vh;
+    height: 100vh;
     margin: 0;    
     width: 100%;
 }
 
-
+#sun {
+    background: var(--sun);
+    border: 3px dotted white;
+    border-radius: 50%;
+    height: 40px;    
+    left: 5%;
+    position: absolute;
+    top: 10%;
+    width: 40px;
+}
