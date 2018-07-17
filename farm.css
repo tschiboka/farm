@@ -23,6 +23,7 @@
     background: var(--sun);
     border: 3px dotted white;
     border-radius: 50%;
+    box-shadow: 0 0 35px var(--sun);
     height: 40px;    
     left: 5%;
     position: absolute;
