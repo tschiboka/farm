@@ -1,0 +1,21 @@
+:root {
+    --sky-blue: #8ba9c9;
+    --sky-purple: #9a8dba;
+}
+
+#box {
+    background: var(--sky-blue);
+    background: -moz-linear-gradient(-45deg, var(--sky-blue) 0%,var(--sky-purple) 84%,var(--sky-purple) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, var(--sky-blue)), color-stop(84%,var(--sky-purple)), color-stop(100%,var(--sky-purple)));
+    background: -webkit-linear-gradient(-45deg, var(--sky-blue) 0%,var(--sky-purple) 84%,var(--sky-purple) 100%);
+    background: -o-linear-gradient(-45deg, var(--sky-blue) 0%,var(--sky-purple) 84%,var(--sky-purple) 100%);
+    background: -ms-linear-gradient(-45deg, var(--sky-blue) 0%,var(--sky-purple) 84%,var(--sky-purple) 100%);
+    background: linear-gradient(135deg, var(--sky-blue) 0%,var(--sky-purple) 84%,var(--sky-purple) 100%);
+    border: 1px dotted whitesmoke;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a90c7', endColorstr='#8f5dda', GradientType=1 );    
+    height: 90vh;
+    margin: 0;    
+    width: 100%;
+}
+
+
