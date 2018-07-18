@@ -1,8 +1,10 @@
 :root {
     --sky-blue: #8ba9c9;
-    --sky-purple: #9a8dba;
+    --sky-purple: #ab9fc6;
     --sun: #fffddb;
-    --hill-green1: #7ab326;
+    --hill-green1: #6fa222;
+    --hill-green2: #286125;
+    --hill-green3: #126d14;
 }
 
 body {
@@ -164,10 +166,6 @@ body {
     width: 80px;
 }
 
-.hill {
-    
-}
-
 #hill1 {
     background: var(--hill-green1);
     border-top-left-radius: 50%;
@@ -177,4 +175,26 @@ body {
     left: -5vw;
     position: absolute;
     width: 70vw;
+}
+
+#hill2 {
+    background: var(--hill-green2);
+    border-top-left-radius: 90%;
+    border-top-right-radius: 70%;
+    top: 40vh;
+    height: 200vh;
+    left: -10vw;
+    position: absolute;
+    width: 370vw;
+}
+
+#hill3 {
+    background: var(--hill-green3);
+    border-top-left-radius: 90%;
+    border-top-right-radius: 70%;
+    top: 60vh;
+    height: 100vh;
+    left: 40vw;
+    position: absolute;
+    width: 170vw;
 }
