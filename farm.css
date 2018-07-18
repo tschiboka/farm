@@ -34,17 +34,17 @@
     background: var(--sun);
     border: 3px dotted white;
     border-radius: 50%;
-    box-shadow: 0 0 20px var(--sun);
-    height: 40px;    
+    box-shadow: 0 0 40px var(--sun);
+    height: 45px;    
     left: 100px;
     position: absolute;
     top: 100px;
-    width: 40px;
+    width: 45px;
 }
 
 #ray-box {
     animation: ray_anim 30s linear infinite;    
-    bottom:0;	    	
+    bottom:0;	        
     position: absolute;	
     top:0px;    
     -webkit-animation: ray_rotate_animation 30s linear infinite;    
@@ -57,17 +57,91 @@
     background: -webkit-linear-gradient(-90deg, var(--sun) 10%,white 15%,transparent 100%);
     background: -o-linear-gradient(-90deg, var(--sun) 10%,white 15%,transparent 100%);
     background: -ms-linear-gradient(-90deg, var(--sun) 10%,white 15%,transparent 100%);
-    background: linear-gradient(90deg, var(--sun) 10%,white 15%,transparent 100%);        
+    background: linear-gradient(90deg, var(--sun) 10%,white 15%,transparent 100%);  
+    border-radius:0 80% 80% 0;         
+    height: 10px;
+    left: 50%;
+    position: absolute;    
+    top: 40%;
+    transform-origin: left;
 }
 
 #ray1 {    
-    height: 10px;
-    left: 50%; 
-    top: 90%;
-    position: relative;
+    animation: ray_shrink_animation 5s linear infinite;          
     transform: rotate(36deg);    
-    -webkit-transform: rotate(36deg);
     -webkit-animation: ray_shrink_animation 5s linear infinite;
-    animation: ray_shrink_animation 5s linear infinite;  
+    -webkit-transform: rotate(36deg);
     width: 70px;
+}
+
+#ray2 {    
+    animation: ray_shrink_animation 7s linear infinite;              
+    transform: rotate(72deg);    
+    -webkit-animation: ray_shrink_animation 7s linear infinite;
+    -webkit-transform: rotate(72deg);
+    width: 110px;
+}
+
+#ray3 {    
+    animation: ray_shrink_animation 7s linear infinite;              
+    transform: rotate(108deg);    
+    -webkit-animation: ray_shrink_animation 7s linear infinite;
+    -webkit-transform: rotate(108deg);
+    width: 80px;
+}
+
+#ray4 {    
+    animation: ray_shrink_animation 3s linear infinite;              
+    transform: rotate(144deg);    
+    -webkit-animation: ray_shrink_animation 3s linear infinite;
+    -webkit-transform: rotate(144deg);
+    width: 50px;
+}
+
+#ray5 {    
+    animation: ray_shrink_animation 6s linear infinite;              
+    transform: rotate(180deg);    
+    -webkit-animation: ray_shrink_animation 6s linear infinite;
+    -webkit-transform: rotate(180deg);
+    width: 90px;
+}
+
+#ray6 {    
+    animation: ray_shrink_animation 9s linear infinite;              
+    transform: rotate(216deg);    
+    -webkit-animation: ray_shrink_animation 9s linear infinite;
+    -webkit-transform: rotate(216deg);
+    width: 60px;
+}
+
+#ray7 {    
+    animation: ray_shrink_animation 3s linear infinite;              
+    transform: rotate(252deg);    
+    -webkit-animation: ray_shrink_animation 3s linear infinite;
+    -webkit-transform: rotate(252deg);
+    width: 40px;
+}
+
+#ray8 {    
+    animation: ray_shrink_animation 8s linear infinite;              
+    transform: rotate(288deg);    
+    -webkit-animation: ray_shrink_animation 8s linear infinite;
+    -webkit-transform: rotate(288deg);
+    width: 120px;
+}
+
+#ray9 {    
+    animation: ray_shrink_animation 5s linear infinite;              
+    transform: rotate(324deg);    
+    -webkit-animation: ray_shrink_animation 5s linear infinite;
+    -webkit-transform: rotate(324deg);
+    width: 60px;
+}
+
+#ray10 {    
+    animation: ray_shrink_animation 7s linear infinite;              
+    transform: rotate(360deg);    
+    -webkit-animation: ray_shrink_animation 7s linear infinite;
+    -webkit-transform: rotate(360deg);
+    width: 80px;
 }
