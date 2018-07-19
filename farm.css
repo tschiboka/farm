@@ -14,6 +14,7 @@
     --farm-house-door: #6b5e3f;
     --farm-house-door-handle: #ffbd7b;
     --farm-house-roof-hole: #282c34;
+    --farm-house-window: #b7ffff;
 }
 
 body {
@@ -333,7 +334,7 @@ body {
 
 #farm-house-door {
     background: var(--farm-house-door);
-    border: 3px var(--farm-house-door-frame) solid;
+    border: 3px var(--farm-house-door-frame) inset;
     border-radius: 5px 5px 0 0;
     bottom: 0px;
     height: 120px;
@@ -350,7 +351,7 @@ body {
     font-weight: bolder;
     left: 75%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
 }
@@ -358,11 +359,22 @@ body {
 #farm-house-roof-hole {
     background: var(--farm-house-roof-hole);
     border: 3px inset var(--farm-house-door-frame);
-    border-radius: 50%;
-    color: var(--farm-house-door-frame);
+    border-radius: 50%;    
     height: 20px;
     left: 44%;    
     top: 15%;
     position: absolute;
     width: 20px;
 }
+
+#farm-house-window {
+    background: var(--farm-house-window);
+    border: 3px inset var(--farm-house-door-frame);
+    border-radius: 5px;    
+    bottom: 80px;
+    height: 40px;
+    left: 10%;        
+    position: absolute;
+    width: 50px;
+}
+
