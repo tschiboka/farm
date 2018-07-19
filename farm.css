@@ -9,7 +9,7 @@
     --cloud-upper: #ccedff;
     --cloud-lower: #8cc9ff;
     --farm-house-wall: #9a4c4c;
-    --farm-house-stripe: #97474d;
+    --farm-house-stripe: #7d464b;
 }
 
 body {
@@ -307,6 +307,10 @@ body {
 #farm-house-walls {
     border: 1px solid black;
     background: var(--farm-house-wall);
+    background:-webkit-repeating-linear-gradient(90deg, var(--farm-house-wall) 0%, var(--farm-house-wall) 7%, var(--farm-house-stripe) 10%);
+    background:-o-repeating-linear-gradient(90deg, var(--farm-house-wall) 0%, var(--farm-house-wall) 7%,  var(--farm-house-stripe) 10%);
+    background:-moz-repeating-linear-gradient(90deg, var(--farm-house-wall) 0%, var(--farm-house-wall) 7%,  var(--farm-house-stripe) 10%);
+    background:repeating-linear-gradient(90deg, var(--farm-house-wall) 0%, var(--farm-house-wall) 7%,  var(--farm-house-stripe) 10%);
     clip-path: polygon(0% 100%, 0% 30%, 50% 0%, 100% 30%, 100% 100%);
     height: 240px;
     position: relative;
