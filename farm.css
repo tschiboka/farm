@@ -209,13 +209,6 @@ body {
     width: 100px; 
 }
 
-
-#cloud1 {
-    border: 1px solid black;    
-    left: 200px;    
-    top: 40px;     
-}
-
 .cloud-part {
     border-radius: 50%;
     background: var(--cloud-upper); 
@@ -257,3 +250,11 @@ body {
 .cloud-part7 { left: 60px; top: -125px; }
 
 .cloud-part8 { left: 75px; top: -145px; }
+
+#cloud1 { left: 0vw; top: 5px; }
+
+#cloud2 { left: 25vw; top: 75px; }
+
+#cloud3 { left: 60vw; top: 50px; }
+
+#cloud4 { left: 80vw; top: 120px; }
