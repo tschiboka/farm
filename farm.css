@@ -354,3 +354,15 @@ body {
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
 }
+
+#farm-house-roof-hole {
+    background: var(--farm-house-roof-hole);
+    border: 3px inset var(--farm-house-door-frame);
+    border-radius: 50%;
+    color: var(--farm-house-door-frame);
+    height: 20px;
+    left: 44%;    
+    top: 15%;
+    position: absolute;
+    width: 20px;
+}
