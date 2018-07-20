@@ -16,6 +16,7 @@
     --farm-house-roof-hole: #282c34;
     --farm-house-window: #b7ffff;
     --smoke: #2c2c2c;
+    --mill-log: #742b1b;
 }
 
 body {
@@ -304,9 +305,9 @@ body {
 }
 
 #farm-house {     
-    bottom: 20vh;
+    bottom: 70px;
     position: absolute;
-    right: 7vw;
+    right: 50px;
 }
 
 #farm-house-walls {   
@@ -477,3 +478,29 @@ body {
     top: -255px;
     animation-delay: 3s;
 }
+
+#mill {
+    border: 1px solid black;
+    height: 200px;
+    position: absolute;
+    right: 220px;
+    top: 180px;
+    width: 140px;
+}
+
+.mill-log { 
+    background: var(--mill-log); 
+    border: 1px rgba(0,0,0,0.4);
+    border-radius: 2px;
+    position: absolute;
+}
+
+.mill-log-lrg { height: 150px; width: 12px; }
+
+#mill-log-lrg1 {
+    bottom: 0px;
+    left: 30px;
+    transform: skew(-23deg);
+}
+
+
