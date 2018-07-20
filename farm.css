@@ -746,3 +746,66 @@ body {
 #cow-leg3 { left: 37px; }
 
 #cow-leg4 { left: 47px; }
+
+.cow-spot {    
+    position: absolute;
+}
+
+#cow-spot1 {
+    background: var(--cow-gray);
+    -webkit-clip-path: ellipse(50% 80% at 50% 20%);
+    clip-path: ellipse(50% 80% at 50% 20%);
+    height: 10px;
+    left: 45px;
+    top: 10px;
+    position: absolute;
+    width: 25px;
+}
+
+#cow-spot2 {
+    background: var(--cow-gray);
+    -webkit-clip-path: ellipse(50% 80% at 50% 20%);
+    clip-path: ellipse(50% 80% at 50% 20%);
+    height: 7px;
+    left: 68px;
+    top: 10px;
+    position: absolute;
+    width: 10px;
+}
+
+#cow-spot3 {
+    background: var(--cow-gray);
+    -webkit-clip-path: ellipse(50% 50% at 50% 50%);
+    clip-path: ellipse(50% 50% at 50% 50%);
+    height: 10px;
+    left: 70px;
+    top: 25px;
+    position: absolute;
+    width: 15px;
+}
+
+#cow-spot4 {
+    background: var(--cow-gray);
+    -webkit-clip-path: ellipse(50% 30% at 50% 50%);
+    clip-path: ellipse(50% 30% at 50% 50%);
+    height: 12px;
+    left: 40px;
+    top: 40px;
+    position: absolute;
+    width: 22px;
+}
+
+#cow-spot5 {
+    background: var(--cow-gray);
+    -webkit-clip-path: ellipse(50% 30% at 50% 50%);
+    clip-path: ellipse(50% 30% at 50% 50%);
+    height: 15px;
+    left: 45px;
+    top: 35px;
+    position: absolute;
+    width: 22px;
+}
+
+
+
+
