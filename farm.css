@@ -722,3 +722,27 @@ body {
 
 #cow-horn-right { clip-path: polygon(100% 0%, 90% 100%, 40% 100%); left: 28px; }
 
+.cow-legs {   
+    bottom: 2px;
+    height: 15px;   
+    left: 35px;     
+    position: absolute;        
+    width: 50px;
+}
+
+.cow-leg {
+    background: var(--cow-white);
+    border-bottom: 3px solid #333;
+    border-bottom-left-radius: 1px;
+    height: inherit;
+    position: absolute;
+    width: 5px;
+}
+
+#cow-leg1 { left: 2px; }
+
+#cow-leg2 { left: 12px; }
+
+#cow-leg3 { left: 37px; }
+
+#cow-leg4 { left: 47px; }
