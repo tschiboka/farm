@@ -699,14 +699,26 @@ body {
     width: 7px;
 }
 
-#cow-ear-left {
-    clip-path: polygon(0% 100%, 100% 0%, 100% 50%);
+#cow-ear-left { clip-path: polygon(0% 100%, 100% 0%, 100% 50%); }
+
+#cow-ear-right { clip-path: polygon(0% 0%, 100% 100%, 0% 50%); left: 35px; }
+
+.cow-horns {
+    height: 15px;    
+    left: -4px;
+    position: absolute;
+    top: -5px;
+    width: 40px;
 }
 
-#cow-ear-right {
-    clip-path: polygon(0% 0%, 100% 100%, 0% 50%);
-    left: 35px;
+.cow-horn {
+    background: var(--cow-horn);
+    height: 13px;    
+    position: absolute;
+    width: 7px;
 }
 
+#cow-horn-left { clip-path: polygon(0% 0%, 10% 100%, 60% 100%); left: 7px;}
 
+#cow-horn-right { clip-path: polygon(100% 0%, 90% 100%, 40% 100%); left: 28px; }
 
