@@ -15,6 +15,7 @@
     --farm-house-door-handle: #ffbd7b;
     --farm-house-roof-hole: #282c34;
     --farm-house-window: #b7ffff;
+    --smoke: #2c2c2c;
 }
 
 body {
@@ -259,11 +260,11 @@ body {
 .cloud-part8 { left: 75px; top: -145px; }
 
 @-webkit-keyframes cloud-move {
-    from { left: 0vw; } to { left: 100vw; }
+    from { left: -10vw; } to { left: 100vw; }
 }
 
 @keyframes cloud-move {
-    from { left: 0vw; } to { left: 100vw; }
+    from { left: -10vw; } to { left: 100vw; }
 }
 
 #cloud1 { 
@@ -314,7 +315,7 @@ body {
     background:-o-repeating-linear-gradient(90deg, var(--farm-house-wall) 0%, var(--farm-house-wall) 7%,  var(--farm-house-stripe) 10%);
     background:-moz-repeating-linear-gradient(90deg, var(--farm-house-wall) 0%, var(--farm-house-wall) 7%,  var(--farm-house-stripe) 10%);
     background:repeating-linear-gradient(90deg, var(--farm-house-wall) 0%, var(--farm-house-wall) 7%,  var(--farm-house-stripe) 10%);
-    border: 3px solid #6a6a6a; 
+    border: 3px outset #6a6a6a; 
     clip-path: polygon(0% 100%, 0% 30%, 50% 0%, 100% 30%, 100% 100%);   
     height: 240px;
     position: relative;
@@ -390,3 +391,74 @@ body {
     width: 40px;
 }
 
+@keyframes smoke {
+    0% {
+        opacity: 1;
+        border-top-left-radius: 50%;
+    }
+    80% {
+        transform: translate3d(20px,-70px,70px) rotate(20deg) skew(-20deg); 
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -ms-filter: blur(5px);
+        -o-filter: blur(5px);
+        border-radius: 70px 70px 0 0;
+        border-top-left-radius: 0%;
+        border-top-left-radius: 50%;
+    }
+    100% {opacity: 0; }
+}
+
+@-webkit-keyframes smoke {
+    0% {
+        opacity: 1;
+        border-top-left-radius: 50%;
+    }
+    80% {
+        transform: translate3d(20px,-70px,70px) rotate(20deg) skew(-20deg); 
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -ms-filter: blur(5px);
+        -o-filter: blur(5px);
+        border-radius: 70px 70px 0 0;
+        border-top-left-radius: 0%;
+        border-top-left-radius: 50%;
+    }
+    100% {opacity: 0; }
+}
+
+#farm-house-chimney-smoke-box {    
+    height: 50px;
+    right: 19%;
+    top: 5px;
+    position: absolute;
+    width: 15px;    
+}
+
+.farm-house-chimney-smoke {
+    animation: smoke 3s infinite ease-out;
+    -webkit-animation: smoke 3s infinite ease-out;
+    background: var(--smoke);
+    background:-webkit-repeating-linear-gradient(90deg, transparent 0%, var(--smoke) 50%);
+    background:-o-repeating-linear-gradient(90deg, transparent 0%, var(--smoke) 50%);
+    background:-moz-repeating-linear-gradient(90deg, transparent 0%, var(--smoke) 50%);
+    background:repeating-linear-gradient(90deg, transparent 0%, var(--smoke) 50%);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+    height: 100%;
+    position: relative;    
+    width: 100%;
+}
+
+#farm-house-chimney-smoke2 {
+    top: -55px;
+    animation-delay: 1s;
+}
+
+#farm-house-chimney-smoke3 {
+    top: -105px;
+    animation-delay: 2s;
+}
