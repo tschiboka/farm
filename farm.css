@@ -436,8 +436,8 @@ body {
 }
 
 .farm-house-chimney-smoke {
-    animation: smoke 3s infinite ease-out;
-    -webkit-animation: smoke 3s infinite ease-out;
+    animation: smoke 3.5s infinite ease-out;
+    -webkit-animation: smoke 3.5s infinite ease-out;
     background: var(--smoke);
     background:-webkit-repeating-linear-gradient(90deg, transparent 0%, var(--smoke) 50%);
     background:-o-repeating-linear-gradient(90deg, transparent 0%, var(--smoke) 50%);
@@ -455,10 +455,25 @@ body {
 
 #farm-house-chimney-smoke2 {
     top: -55px;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
 }
 
 #farm-house-chimney-smoke3 {
     top: -105px;
-    animation-delay: 2s;
+    animation-delay: 1s;
+}
+
+#farm-house-chimney-smoke4 {
+    top: -155px;
+    animation-delay: 1.5s;
+}
+
+#farm-house-chimney-smoke5 {
+    top: -205px;
+    animation-delay: 2.5s;
+}
+
+#farm-house-chimney-smoke6 {
+    top: -255px;
+    animation-delay: 3s;
 }
