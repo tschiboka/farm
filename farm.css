@@ -674,19 +674,39 @@ body {
     -moz-border-radius: 40px/20px;
     -webkit-border-radius: 40px/20px;
     height: 20px;
-    left: -2px;
+    left: -1px;
     position: absolute;
-    top: 25px;
+    top: 23px;
+    width: 36px;
+}
+
+#cow-nostril1 { left: 6px; top: 7px; }
+
+#cow-nostril2 { left: 24px; top: 7px; }
+
+.cow-ears {   
+    height: 15px;
+    left: -4px;
+    position: absolute;
+    top: 5px;
     width: 40px;
 }
 
-#cow-nostril1 {
-    left: 8px;
-    top: 7px;
+.cow-ear {
+    background: var(--cow-nose);
+    height: 15px;
+    position: absolute;
+    width: 7px;
 }
 
-#cow-nostril2 {
-    left: 26px;
-    top: 7px;
+#cow-ear-left {
+    clip-path: polygon(0% 100%, 100% 0%, 100% 50%);
 }
+
+#cow-ear-right {
+    clip-path: polygon(0% 0%, 100% 100%, 0% 50%);
+    left: 35px;
+}
+
+
 
