@@ -493,26 +493,39 @@ body {
     border: 1px rgba(0,0,0,0.4);
     border-radius: 2px;
     position: absolute;
+    width: 9px;
 }
 
-.mill-log-lrg { height: 150px; width: 12px; }
+.mill-log-lrg { height: 150px; }
 
 #mill-log-lrg1 {
     bottom: 0px;
     left: 30px;
     transform: skew(-23deg);
+    -webkit-transform: skew(-23deg);
 }
 
 #mill-log-lrg2 {
     bottom: 0px;
     right: 30px;
     transform: skew(23deg);
+    -webkit-transform: skew(23deg);
 }
 
 #mill-log-lrg3 {
     bottom: 0px;
-    right: 46%;
+    right: 47%;
 }
+
+.mill-log-sml {
+    height: 100px; 
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+#mill-log-sml1 { bottom: 20%; left: 45%; }
+
+#mill-log-sml2 { bottom: 28%; left: 45%; }
 
 
 
