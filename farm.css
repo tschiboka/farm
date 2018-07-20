@@ -806,6 +806,37 @@ body {
     width: 22px;
 }
 
+#tail-part1 {
+    background: var(--cow-white);   
+    border-top-right-radius: 40px; 
+    height: 3px;
+    left: 90px;
+    top: 15px;
+    position: absolute;
+    width: 14px;
+}
+
+#tail-part2 {
+    background: var(--cow-white);   
+    border-top-right-radius: 40px; 
+    height: 22px;
+    left: 101px;
+    top: 15px;
+    position: absolute;
+    width: 3px;
+}
+
+#tail-part3 {
+    background: var(--cow-gray);  
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%); 
+    border-radius: 50%;
+    height: 10px;
+    left: 100px;
+    top: 35px;
+    position: absolute;
+    width: 5px;
+}
+
 
 
 
