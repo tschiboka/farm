@@ -853,4 +853,9 @@ body {
     -webkit-transform: rotate(-20deg);
 }
 
-
+#cow2 {
+    top: 280px;
+    right: 350px;
+    transform: rotate(-15deg) scale(0.7);
+    -webkit-transform: rotate(-15deg) scale(0.7);    
+}
