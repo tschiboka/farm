@@ -25,6 +25,9 @@
     --cow-nose: #949497;
     --cow-horn: #f2dbae;
     --cow-tits: #f1afcd;
+    --pine-bright: #008a00;
+    --pine-dark: #004d00;
+    --pine-trunk: #483c24;
 }
 
 body {
@@ -858,4 +861,44 @@ body {
     right: 350px;
     transform: rotate(-15deg) scale(0.7);
     -webkit-transform: rotate(-15deg) scale(0.7);    
+}
+
+.pine {    
+    height: 150px;
+    position: absolute;
+    width: 80px;    
+}
+
+.pine-bright {
+    background: var(--pine-bright);
+    clip-path: polygon(100% 100%, 0% 100%, 100% 0%);
+    -webkit-clip-path: polygon(100% 100%, 0% 100%, 100% 0%);
+    height: 110px;
+    position: absolute;
+    right: 50%;
+    width: 40px;
+}
+
+.pine-dark {
+    background: var(--pine-dark);    
+    left: 50%;
+    clip-path: polygon(100% 100%, 0% 100%, 0% 0%);
+    -webkit-clip-path: polygon(100% 100%, 0% 100%, 0% 0%);
+    height: 110px;    
+    position: absolute;
+    width: 40px;
+}
+
+.pine-trunk {
+    background: var(--pine-trunk);    
+    bottom: 0px;    
+    height: 70px;    
+    left: 35px;
+    position: absolute;
+    width: 10px;
+}
+
+#pine1 {
+    left: 50px;
+    top: 200px;
 }
