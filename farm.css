@@ -194,7 +194,7 @@ body {
     background: var(--hill-green1);
     border-top-left-radius: 50%;
     border-top-right-radius: 70%;
-    top: 60vh;
+    bottom: -5%;
     height: 50vh;
     left: -5vw;
     position: absolute;
@@ -205,8 +205,8 @@ body {
     background: var(--hill-green2);
     border-top-left-radius: 90%;
     border-top-right-radius: 70%;
-    top: 40vh;
-    height: 200vh;
+    bottom: -100%;
+    height: 160%;
     left: -10vw;
     position: absolute;
     width: 370vw;
@@ -216,8 +216,8 @@ body {
     background: var(--hill-green3);
     border-top-left-radius: 90%;
     border-top-right-radius: 70%;
-    top: 60vh;
-    height: 100vh;
+    bottom: -60%;
+    height: 100%;
     left: 40vw;
     position: absolute;
     width: 170vw;
@@ -899,21 +899,21 @@ body {
 }
 
 #pine1 {
-    bottom: 130px;
+    bottom: 30%;
     left: 50px;
     transform: scale(0.6);
     -webkit-transform: scale(0.6);
 }
 
 #pine2 {
-    bottom: 100px;
+    bottom: 15%;
     left: 100px;
     transform: scale(0.8);
     -webkit-transform: scale(0.8);
 }
 
 #pine3 {
-    bottom: 15px;
+    bottom: 2%;
     left: 30px;
 }
 
