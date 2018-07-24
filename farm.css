@@ -899,6 +899,21 @@ body {
 }
 
 #pine1 {
+    bottom: 130px;
     left: 50px;
-    top: 200px;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
 }
+
+#pine2 {
+    bottom: 100px;
+    left: 100px;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+}
+
+#pine3 {
+    bottom: 15px;
+    left: 30px;
+}
+
