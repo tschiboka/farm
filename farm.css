@@ -28,6 +28,9 @@
     --pine-bright: #008a00;
     --pine-dark: #004d00;
     --pine-trunk: #483c24;
+    --oak-bright: #427234;
+    --oak-dark: #2c4123;
+    --oak-trunk: #766456;
 }
 
 body {
@@ -917,3 +920,44 @@ body {
     left: 30px;
 }
 
+.oak {    
+    height: 150px;
+    position: absolute;
+    width: 80px;    
+}
+
+.oak-bright {
+    background: var(--oak-bright);
+    clip-path: ellipse(80% 50% at 110% 50%);
+    -webkit-clip-path: ellipse(80% 50% at 110% 50%);
+    height: 110px;
+    position: absolute;
+    right: 50%;
+    width: 40px;
+}
+
+.oak-dark {
+    background: var(--oak-dark);    
+    left: 50%;
+    clip-path: ellipse(80% 50% at -10% 50%);
+    -webkit-clip-path: ellipse(80% 50% at 110% 50%);
+    height: 110px;    
+    position: absolute;
+    width: 40px;
+}
+
+.oak-trunk {
+    background: var(--oak-trunk);    
+    bottom: 0px;    
+    height: 70px;    
+    left: 35px;
+    position: absolute;
+    width: 10px;
+}
+
+#oak1 {
+    bottom: 10%;
+    left: 150px;
+    transform: scale(0.6);
+    -webkit-transform: scale(1);
+}
