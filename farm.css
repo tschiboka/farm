@@ -969,3 +969,17 @@ body {
     -webkit-transform: scale(0.8);
 }
 
+#oak3 {
+    bottom: 35%;
+    left: 300px;
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+}
+
+#oak4 {
+    bottom: 22%;
+    left: 380px;
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+}
+
