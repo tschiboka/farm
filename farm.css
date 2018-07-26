@@ -31,6 +31,7 @@
     --oak-bright: #427234;
     --oak-dark: #2c4123;
     --oak-trunk: #766456;
+    --tractor-body: #ff0000;
 }
 
 body {
@@ -983,3 +984,23 @@ body {
     -webkit-transform: scale(0.6);
 }
 
+.tractor-box {
+    border: 1px black solid;
+    height: 150px;
+    position: absolute;
+    width: 200px;
+}
+
+.tractor-body {
+    background: var(--tractor-body);
+    bottom: 30px;
+    clip-path: polygon(0% 100%, 0% 45%, 15% 40%, 40% 40%, 40% 10%, 42% 10%, 42% 50%, 60% 70%, 80% 70%, 80% 35%, 100% 35%, 100% 100%);
+    height: 70%;
+    position: absolute;
+    width: 100%;
+}
+
+#tractor {
+    bottom: 30px;
+    right: 280px;
+}
