@@ -1014,13 +1014,15 @@ body {
 
 .tractor-wheel-large {
     right: 0;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
 }
 
 .tractor-wheel-small {
     bottom: -9%;
     left: -3%;
-    transform: scale(0.5);
-    -webkit-transform: scale(0.7);
+    transform: scale(0.5) rotate(-30deg);
+    -webkit-transform: scale(0.7) rotate(-30deg);
 }
 
 .tractor-wheel-barrel {
@@ -1084,8 +1086,31 @@ body {
     width: 20%;
 }
 
+.tractor-stripes {
+    bottom: 45%;
+    height: 12%;
+    left: 20%;
+    position: absolute;
+    width: 15%;
+}
+
+.tractor-stripe {
+    background: rgba(0,0,0,0.6);
+    border: 1px solid black;
+    height: 100%;
+    position: absolute; 
+    transform: skew(-10deg); 
+    -webkit-transform: skew(-10deg); 
+    width: 10%;
+}
+
+.tractor-stripe1 { right: 15%; }
+
+.tractor-stripe2 { right: 45%; }
+
+.tractor-stripe3 { right: 75%; }
+
 #tractor {
     bottom: 30px;
     right: 280px;
 }
-25
