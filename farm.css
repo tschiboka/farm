@@ -987,7 +987,7 @@ body {
 }
 
 .tractor-box {
-    border: 1px black solid;
+    /*border: 1px black solid;*/
     height: 150px;
     position: absolute;
     width: 230px;
@@ -1109,6 +1109,21 @@ body {
 .tractor-stripe2 { right: 45%; }
 
 .tractor-stripe3 { right: 75%; }
+
+.tractor-steering-wheel {
+    background: var(--tractor-wheel);
+    border: 1px solid black;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 14%, 57% 14%, 57% 100%, 43% 100%, 43% 14%, 0% 14%);
+    border-radius: 10%;
+    height: 22%;
+    left: 40%;
+    position: absolute; 
+    top: 30%;
+    transform-origin: bottom left;
+    transform: rotate(35deg); 
+    -webkit-transform: rotate(35deg); 
+    width: 12%;
+}
 
 #tractor {
     bottom: 30px;
