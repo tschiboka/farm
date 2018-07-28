@@ -1125,6 +1125,45 @@ body {
     width: 12%;
 }
 
+.tractor-exhaust-pipe-box {    
+    height: 40%;
+    position: absolute;
+    right: 13%;
+    top: -8%;
+    width: 5%;
+}
+
+.tractor-exhaust-pipe1 {
+    background: var(--tractor-wheel);
+    height: 90%;
+    position: absolute;
+    right: 40%;
+    top: 10%;
+    width: 40%;
+}
+
+.tractor-exhaust-pipe2 {
+    background: var(--tractor-wheel);
+    height: 12%;
+    position: absolute;
+    right: 35%;
+    top: 0;
+    transform-origin: bottom left;
+    transform: skew(-40deg);
+    -webkit-transform: skew(-40deg);
+    width: 45%;
+}
+
+.tractor-exhaust-pipe-resonator {
+    background: var(--tractor-wheel);
+    border-radius: 3px;
+    height: 50%;
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    width: 90%;
+}
+
 #tractor {
     bottom: 30px;
     right: 280px;
