@@ -1165,6 +1165,8 @@ body {
 }
 
 #tractor {
-    bottom: 30px;
-    right: 280px;
+    bottom: 5%;
+    right: 40%;
+    transform: scale(0.9) rotate(-5deg);
+    -webkit-transform: scale(0.9) rotate(-5deg);
 }
