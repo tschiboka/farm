@@ -919,7 +919,7 @@ body {
 }
 
 #pine3 {
-    bottom: 2%;
+    bottom: 6%;
     left: 30px;
 }
 
@@ -943,7 +943,7 @@ body {
     background: var(--oak-dark);    
     left: 50%;
     clip-path: ellipse(80% 50% at -10% 50%);
-    -webkit-clip-path: ellipse(80% 50% at 110% 50%);
+    -webkit-clip-path: ellipse(80% 50% at -10% 50%);
     height: 110px;    
     position: absolute;
     width: 40px;
